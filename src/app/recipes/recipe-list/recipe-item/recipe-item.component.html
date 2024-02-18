@@ -1,1 +1,7 @@
-<p>recipe-item works!</p>
+<a class="card my-5 mx-2" style="width: 18rem;" (click)="onSelected()">
+  <img  src="{{recipe.imagePath}}" class="card-img-top img-fluid" alt="{{recipe.name}}">
+  <div class="card-body">
+    <h5 class="card-title">{{recipe.name}}</h5>
+    <p class="card-text">{{recipe.description}}</p>
+  </div>
+</a>
